@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   TemplateInfo.plist
+   MVVM-SwiftUI-Template
+
+   Created by Fabricio Padua on 12/20/24.
+   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>File</string>
+    <key>Platform</key>
+    <string>com.apple.platform.iphoneos</string>
+    <key>Category</key>
+    <string>iOS</string>
+    <key>Identifier</key>
+    <string>com.example.MVVMTemplate</string>
+    <key>Version</key>
+    <string>1.0</string>
+    <key>Description</key>
+    <string>A simple MVVM template</string>
+    <key>FileName</key>
+    <string>MVVMTemplate</string>
+</dict>
+</plist>
