@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-enum NetworkError: LocalizedError {
+enum NetworkError: LocalizedError, Equatable {
     case badURL
     case noData
     case serverError(statusCode: Int)
@@ -42,6 +42,24 @@ enum NetworkError: LocalizedError {
             return "Decoding Error"
         case .unknownError:
             return "Unknown Error"
+        }
+    }
+    
+    // Equatable
+    static func == (lhs: NetworkError, rhs: NetworkError) -> Bool {
+        switch (lhs, rhs) {
+        case (.badURL, .badURL):
+            return true
+        case (.noData, .noData):
+            return true
+        case (.decodingError, .decodingError):
+            return true
+        case (.unknownError, .unknownError):
+            return true
+        case (.serverError(let lhsCode), .serverError(let rhsCode)):
+            return lhsCode == rhsCode
+        default:
+            return false
         }
     }
 }

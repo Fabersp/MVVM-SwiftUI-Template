@@ -8,37 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3F9C95B63ACD8A98C7ACDAE9 /* Pods_MVVM_SwiftUI_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C38DE0E51CE29DEC4BC0B8B /* Pods_MVVM_SwiftUI_Template.framework */; };
-		7480C7FCBC95BD1AB0EF9813 /* Pods_MVVM_SwiftUI_TemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BD469CFCFBA4381EAEE835 /* Pods_MVVM_SwiftUI_TemplateTests.framework */; };
 		761FF0642D160E1700447CEB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761FF0632D160E1700447CEB /* NetworkService.swift */; };
 		761FF0662D1721D000447CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761FF0652D1721D000447CEB /* ViewController.swift */; };
 		769444292D15F81E00C60898 /* MVVM_SwiftUI_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769444282D15F81E00C60898 /* MVVM_SwiftUI_TemplateApp.swift */; };
 		7694442B2D15F81E00C60898 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694442A2D15F81E00C60898 /* ContentView.swift */; };
 		7694442D2D15F81F00C60898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7694442C2D15F81F00C60898 /* Assets.xcassets */; };
 		769444302D15F81F00C60898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7694442F2D15F81F00C60898 /* Preview Assets.xcassets */; };
-		7694443A2D15F82000C60898 /* MVVM_SwiftUI_TemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769444392D15F82000C60898 /* MVVM_SwiftUI_TemplateTests.swift */; };
 		769444582D15F92500C60898 /* Define_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769444572D15F92500C60898 /* Define_Model.swift */; };
 		7694445A2D15F94B00C60898 /* Define_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769444592D15F94B00C60898 /* Define_ViewModel.swift */; };
 		7694445E2D15F99C00C60898 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694445D2D15F99C00C60898 /* ErrorHandler.swift */; };
 		769444602D15FD2C00C60898 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7694445F2D15FD2C00C60898 /* TemplateInfo.plist */; };
-		D6B9F17F1E89C78EE7A2035F /* Pods_MVVM_SwiftUI_Template_MVVM_SwiftUI_TemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3564ED8E3B7E88DDD3AC272F /* Pods_MVVM_SwiftUI_Template_MVVM_SwiftUI_TemplateUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		769444362D15F82000C60898 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7694441D2D15F81E00C60898 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 769444242D15F81E00C60898;
-			remoteInfo = "MVVM-SwiftUI-Template";
-		};
-		769444402D15F82000C60898 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7694441D2D15F81E00C60898 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 769444242D15F81E00C60898;
-			remoteInfo = "MVVM-SwiftUI-Template";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		25BCE93FD80A53BDACB012BF /* Pods-MVVM-SwiftUI-TemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-SwiftUI-TemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVM-SwiftUI-TemplateTests/Pods-MVVM-SwiftUI-TemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,9 +35,6 @@
 		7694442A2D15F81E00C60898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7694442C2D15F81F00C60898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7694442F2D15F81F00C60898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		769444352D15F82000C60898 /* MVVM-SwiftUI-TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-SwiftUI-TemplateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		769444392D15F82000C60898 /* MVVM_SwiftUI_TemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUI_TemplateTests.swift; sourceTree = "<group>"; };
-		7694443F2D15F82000C60898 /* MVVM-SwiftUI-TemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-SwiftUI-TemplateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		769444572D15F92500C60898 /* Define_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define_Model.swift; sourceTree = "<group>"; };
 		769444592D15F94B00C60898 /* Define_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define_ViewModel.swift; sourceTree = "<group>"; };
 		7694445D2D15F99C00C60898 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
@@ -72,22 +49,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9C95B63ACD8A98C7ACDAE9 /* Pods_MVVM_SwiftUI_Template.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		769444322D15F82000C60898 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7480C7FCBC95BD1AB0EF9813 /* Pods_MVVM_SwiftUI_TemplateTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7694443C2D15F82000C60898 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6B9F17F1E89C78EE7A2035F /* Pods_MVVM_SwiftUI_Template_MVVM_SwiftUI_TemplateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				769444272D15F81E00C60898 /* MVVM-SwiftUI-Template */,
-				769444382D15F82000C60898 /* MVVM-SwiftUI-TemplateTests */,
 				769444262D15F81E00C60898 /* Products */,
 				4D3F3636C365DA5AA9AE3973 /* Pods */,
 				482DAFDAD7434439B9FF893D /* Frameworks */,
@@ -140,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				769444252D15F81E00C60898 /* MVVM-SwiftUI-Template.app */,
-				769444352D15F82000C60898 /* MVVM-SwiftUI-TemplateTests.xctest */,
-				7694443F2D15F82000C60898 /* MVVM-SwiftUI-TemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,14 +126,6 @@
 				7694442F2D15F81F00C60898 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		769444382D15F82000C60898 /* MVVM-SwiftUI-TemplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				769444392D15F82000C60898 /* MVVM_SwiftUI_TemplateTests.swift */,
-			);
-			path = "MVVM-SwiftUI-TemplateTests";
 			sourceTree = "<group>";
 		};
 		769444522D15F86800C60898 /* Model */ = {
@@ -241,45 +191,6 @@
 			productReference = 769444252D15F81E00C60898 /* MVVM-SwiftUI-Template.app */;
 			productType = "com.apple.product-type.application";
 		};
-		769444342D15F82000C60898 /* MVVM-SwiftUI-TemplateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7694444C2D15F82000C60898 /* Build configuration list for PBXNativeTarget "MVVM-SwiftUI-TemplateTests" */;
-			buildPhases = (
-				42C3231308CD12BDF9359CFD /* [CP] Check Pods Manifest.lock */,
-				769444312D15F82000C60898 /* Sources */,
-				769444322D15F82000C60898 /* Frameworks */,
-				769444332D15F82000C60898 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				769444372D15F82000C60898 /* PBXTargetDependency */,
-			);
-			name = "MVVM-SwiftUI-TemplateTests";
-			productName = "MVVM-SwiftUI-TemplateTests";
-			productReference = 769444352D15F82000C60898 /* MVVM-SwiftUI-TemplateTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7694443E2D15F82000C60898 /* MVVM-SwiftUI-TemplateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7694444F2D15F82000C60898 /* Build configuration list for PBXNativeTarget "MVVM-SwiftUI-TemplateUITests" */;
-			buildPhases = (
-				D15F76147E3E3390310DC188 /* [CP] Check Pods Manifest.lock */,
-				7694443B2D15F82000C60898 /* Sources */,
-				7694443C2D15F82000C60898 /* Frameworks */,
-				7694443D2D15F82000C60898 /* Resources */,
-				04BDD015330CD3DE98E2BACF /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				769444412D15F82000C60898 /* PBXTargetDependency */,
-			);
-			name = "MVVM-SwiftUI-TemplateUITests";
-			productName = "MVVM-SwiftUI-TemplateUITests";
-			productReference = 7694443F2D15F82000C60898 /* MVVM-SwiftUI-TemplateUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -292,14 +203,6 @@
 				TargetAttributes = {
 					769444242D15F81E00C60898 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					769444342D15F82000C60898 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 769444242D15F81E00C60898;
-					};
-					7694443E2D15F82000C60898 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 769444242D15F81E00C60898;
 					};
 				};
 			};
@@ -320,8 +223,6 @@
 			projectRoot = "";
 			targets = (
 				769444242D15F81E00C60898 /* MVVM-SwiftUI-Template */,
-				769444342D15F82000C60898 /* MVVM-SwiftUI-TemplateTests */,
-				7694443E2D15F82000C60898 /* MVVM-SwiftUI-TemplateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,62 +238,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		769444332D15F82000C60898 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7694443D2D15F82000C60898 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04BDD015330CD3DE98E2BACF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests/Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests/Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests/Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		42C3231308CD12BDF9359CFD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MVVM-SwiftUI-TemplateTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9938FC11640BF52409F84CBC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,28 +280,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM-SwiftUI-Template/Pods-MVVM-SwiftUI-Template-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D15F76147E3E3390310DC188 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -471,35 +297,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		769444312D15F82000C60898 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7694443A2D15F82000C60898 /* MVVM_SwiftUI_TemplateTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7694443B2D15F82000C60898 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		769444372D15F82000C60898 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 769444242D15F81E00C60898 /* MVVM-SwiftUI-Template */;
-			targetProxy = 769444362D15F82000C60898 /* PBXContainerItemProxy */;
-		};
-		769444412D15F82000C60898 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 769444242D15F81E00C60898 /* MVVM-SwiftUI-Template */;
-			targetProxy = 769444402D15F82000C60898 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		769444472D15F82000C60898 /* Debug */ = {
@@ -681,82 +479,6 @@
 			};
 			name = Release;
 		};
-		7694444D2D15F82000C60898 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25BCE93FD80A53BDACB012BF /* Pods-MVVM-SwiftUI-TemplateTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabricio.padua.MVVM-SwiftUI-TemplateTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-SwiftUI-Template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM-SwiftUI-Template";
-			};
-			name = Debug;
-		};
-		7694444E2D15F82000C60898 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B18137C0A94F4818C2C045BB /* Pods-MVVM-SwiftUI-TemplateTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabricio.padua.MVVM-SwiftUI-TemplateTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-SwiftUI-Template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM-SwiftUI-Template";
-			};
-			name = Release;
-		};
-		769444502D15F82000C60898 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0C318DA51221D20C782E265 /* Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabricio.padua.MVVM-SwiftUI-TemplateUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MVVM-SwiftUI-Template";
-			};
-			name = Debug;
-		};
-		769444512D15F82000C60898 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FA78879D60150A835938101 /* Pods-MVVM-SwiftUI-Template-MVVM-SwiftUI-TemplateUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabricio.padua.MVVM-SwiftUI-TemplateUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MVVM-SwiftUI-Template";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -774,24 +496,6 @@
 			buildConfigurations = (
 				7694444A2D15F82000C60898 /* Debug */,
 				7694444B2D15F82000C60898 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7694444C2D15F82000C60898 /* Build configuration list for PBXNativeTarget "MVVM-SwiftUI-TemplateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7694444D2D15F82000C60898 /* Debug */,
-				7694444E2D15F82000C60898 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7694444F2D15F82000C60898 /* Build configuration list for PBXNativeTarget "MVVM-SwiftUI-TemplateUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				769444502D15F82000C60898 /* Debug */,
-				769444512D15F82000C60898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
